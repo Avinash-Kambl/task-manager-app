@@ -1,4 +1,4 @@
-create database task_manager_app;
+create database taskmanagerapp;
 use task_manager_app;
 
 create table users(
