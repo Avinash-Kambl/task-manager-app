@@ -1,2 +1,0 @@
-npm init -y
-npm install express express-handlebars mysql2 objection knex exceljs
