@@ -1,0 +1,15 @@
+<h2>Add Task</h2>
+<form method="POST" action="/add-task">
+  <select name="user_id" required>
+    {{#each users}}
+      <option value="{{this.id}}">{{this.name}}</option>
+    {{/each}}
+  </select><br>
+  <input name="task_name" required placeholder="Task Name" /><br>
+  <select name="task_status">
+    <option value="Pending">Pending</option>
+    <option value="Done">Done</option>
+  </select><br>
+  <button type="submit">Add Task</button>
+</form>
+<a href="/">Back to User Form</a>
